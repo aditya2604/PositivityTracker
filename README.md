@@ -41,6 +41,5 @@ Then, to set the flask app and run:
 ```
 export FLASK_APP=route.py
 flask run
-
 ```
 Additionally, the username in route.py on line 7, for the database URI, has to be changed to the username on the computer the project is being run.
