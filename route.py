@@ -4,7 +4,7 @@ import datetime
 import SentimentAnalysis
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://anooptomar@localhost:5432/positivityTracker'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://adityatomar@localhost:5432/positivityTracker'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
